@@ -1,0 +1,182 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+.main{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../images/bgar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-head{
+    max-width: 80%;
+    margin: auto;
+}
+.main-head-head{
+    align-items: center;
+    text-align: center;
+    display:flex;
+}
+.img{
+    width: 100%;
+}
+
+.img img{
+    display: block;
+    align-items: center;
+    /* margin-left:5%; */
+    /* margin-top: 20px; */
+    /* width:50%; */
+    height:70%;
+    box-sizing: border-box;
+}
+.head{
+    width: 50%;
+}
+.head h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.main{
+    background-image: url("https://actiflowshop.online/images/bgar.jpg");
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+    align-items: center;
+}
+nav{
+        justify-content: space-between;
+        background: #1f5773;
+        color: #fff;
+        padding: 15px 0px;
+        display: flex; 
+}
+.header{
+    justify-content: space-between;
+    max-width:80%;
+    line-height: 2px;
+    margin: auto;
+    justify-content: space-between;
+    display: block;
+    align-items: center;
+}
+nav .header .nav-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+}
+nav h2{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+/* .btn button{
+    width: 100px;
+    height: 36px;
+    border: 3px solid rgba(250,10,10);
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 9px;
+    cursor: pointer;
+} */
+
+/* .main-div .head{
+    font-size: 40px;
+}
+.head h1{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    
+}
+.head h2{
+    font-size:x-large;
+    color:white;
+    text-align: center;
+    gap: 400px;
+}
+.head h3{
+    font-size: xx-large;
+    color:white;
+    text-align: center;
+    gap: 400px;
+} */
+/* .head button{
+    width: 200px;
+    height: 70px;
+    border: 3px solid rgba(250,10,10);
+    color:#1f5773;
+    border-radius: 10px;
+} */
+/* .head button:hover{
+    background-color:yellowgreen; 
+    text-align: center;
+}  */
+
+.container h1{
+   margin-left: 5%;
+   font-size: 50px;
+}
+.container p{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.offer-img{
+    max-width:80% ;
+    margin: auto;
+    box-sizing: border-box;
+}
+.offer-img .offer{
+    background: #fff;
+    color: #000;
+    padding: 40px;
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+.offer img{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 767px){
+.offer{
+    flex-direction: column;
+}
+.nav-header{
+    flex-direction: column;
+}
+.head{
+    width:100%;
+}
+.img img{
+    width: 100%;
+}
+.main-head-head{
+    flex-direction: column;
+}
+}
