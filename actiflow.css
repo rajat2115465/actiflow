@@ -22,9 +22,9 @@ html{
 .img{
     width: 100%;
 }
-img{
-    width: 50%;
-}
+/* img{
+     width: 50%; 
+} */
 .img img{
     display: block;
     align-items: center;
@@ -165,8 +165,8 @@ nav h2{
     border-radius: 20px;
     text-align: center;
 }
-/* @media screen and (max-width: 767px){ */
-@media (min-width:400px) and (max-width: 767px){
+@media screen and (max-width: 767px){
+/* @media (min-width:400px) and (max-width: 767px){ */
 .offer{
     flex-direction: column;
 }
@@ -175,6 +175,9 @@ nav h2{
 }
 .head{
     width:100%;
+}
+img{
+    width:50%;
 }
 .img img{
     width: 100%;
